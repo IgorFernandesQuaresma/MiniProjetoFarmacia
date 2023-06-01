@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todos os remédios</title>
+    <script src="https://kit.fontawesome.com/942d26a134.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
 <body>
 
 <header>
-
 <section>
     <nav>
         <ul>
@@ -23,14 +23,60 @@
         </ul>
     </nav>
 </section>
-
 </header>
 
+<!-- Crie o formulário de contato com os seguintes campos:
+
+Nome
+
+Telefone para contato
+
+E-mail
+
+Assunto (Opções em um combo)
+
+Sua mensagem (textarea)
+
+Checkbox - Esta mensagem é sobre um orçamento
+
+Botão enviar -->
+
+<main>
+    <form action="igor.fernandesq@gmail.com" method="post">
+        <label for="Nome Completo">Nome Completo</label>
+        <input type="text">
+    <br>
+        <label for="Email">Email</label>
+        <input type="email" name="email">
+    <br>
+        <label for="Telefone">Telefone</label>
+        <input type="tel" name="telefone">
+    <br>
+        <label for="Assunto">Assunto</label>
+        <select name="Assunto" id="Assunto">
+            <option value="Vendas">Vendas</option>
+            <option value="Financeiro">Financeiro</option>
+            <option value="Pos-vendas">Pos-vendas</option>
+        </select>    
+    <br>
+        <label for="Mensagem-do-usuario">Escreva uma mensagem</label>
+        <textarea name="Sua mensagem" id="sua-mensagem" cols="40" rows="5"></textarea>
+
+    <br>
+
+        <label for="sim">Sim</label>
+        <input type="checkbox" name="sim" id="checkboxsim" value="sim">
+        <label for="sim">Não</label>
+        <input type="checkbox" name="nao" id="checkboxnao" value="nao">
 
 
-<main></main>
+    <br>
+    
 
-<footer></footer>
+        <input type="submit" name="Enviar">
+
+    </form>
+</main>
 
 </body>
 
