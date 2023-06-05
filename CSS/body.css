@@ -1,0 +1,190 @@
+/* ---------------- DUVIDAS: 
+pORQUE EU NAO CONSIGO DEIXAR A SECTION TELA INTEIRA?
+Hover de shadow
+action
+porque eu n consigo deixar um item acima do menu
+------------------- */
+
+
+
+
+*{margin: 0 auto;
+    padding: 0;
+ }
+
+ body {padding: 150px;}
+ 
+
+ /* ---------------- menu ------------------- */
+
+#navmenu { background-color: var(--cor-cinzaclaro);
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 90px;    
+    margin-bottom: 200px;
+}
+
+#navmenu ul {list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+#navmenu img {  height: 30px;
+    margin-top: 20px;
+}
+
+#navmenu a { color: var(--cor-cinza);
+    text-decoration-line: none;
+    font-weight: bold;
+    
+}
+
+#navmenu a:hover { color:var(--cor-laranja);
+}
+
+
+
+/* ---------------- PRODUTOS ------------------- */
+.todos-medicamentos-titulo { height: 150px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.todos-medicamentos-titulo p { color: var(--cor-cinza);
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.todos-medicamentos { background-color: white;
+width: 1080px;
+height: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.todos-medicamentos_item {  border: 1px;
+    border-radius: 30px;
+    width: 300px;
+    height: 450px;
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px 30px;
+   
+}
+
+.todos-medicamentos_item:hover { 
+    -webkit-box-shadow: 5px 5px 12px -2px rgba(78,78,78,0.35);
+    -moz-box-shadow: 5px 5px 12px -2px rgba(78,78,78,0.35);
+    box-shadow: 5px 5px 12px -2px rgba(78,78,78,0.35); 
+}
+    
+
+
+.todos-medicamentos_item_buttom { display: flex;
+    flex-direction: row;
+    gap: 0px 10px;
+
+}
+
+.todos-medicamentos_item img { width: 150px;
+    height: 150px;
+    display: block;
+    align-content: center;
+    align-items: center;
+    margin-top: -25px;
+
+}
+
+.todos-medicamentos h1 i { color: var(--cor-cinzaclaro);
+    margin-left: 200px;
+    margin-top: -50px; }
+
+.todos-medicamentos h1 i:hover { color: var(--cor-laranja);}
+
+
+
+.todos-medicamentos i {color: var(--cor-cinza);
+    width: 50px;
+    margin-top: 20px;
+
+}
+
+.todos-medicamentos h1 { color: var(--cor-cinza);
+    font-weight: bold;    
+
+}
+
+.todos-medicamentos p {color: var(--cor-cinza);
+ font-weight: bold;
+ text-align: center;
+ margin-top: 5px;
+}   
+
+/* ---------------- Botao ------------------- */
+
+
+#button_medicamentos {
+	background-color:#f18343;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:10px 39px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #f18343;
+    border-color: #f18343;
+}
+#button_medicamentos {
+	background-color:#eb6b21;
+}
+#button_medicamentos {
+	position:relative;
+	top:1px;
+}
+
+
+/* ---------------- teste ------------------- */
+
+.item1 { background-color:sblack;
+color:blanchedalmond;
+height:150px;
+width:150px;
+
+}
+.item2 { background-color: black;
+    color: blanchedalmond;
+    height: 150px;
+    width: 150px;
+    
+    }
+.item3 { background-color: black;
+        color: blanchedalmond;
+        height: 150px;
+        width: 150px;
+        
+        }
+
+        .container { background-color: #6C757D;
+            height: 500px;
+            width: 100%;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+
+        }

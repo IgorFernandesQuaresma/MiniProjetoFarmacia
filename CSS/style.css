@@ -1,1 +1,15 @@
-{\rtf1}
+:root { --cor-laranja:#EF8242;
+    --cor-azul:#344BF0;
+    --cor-branco:#FFFFFF;
+    --cor-cinza:#4E4E4E;
+    --cor-cinzaclaro:#F7F7F7;
+
+
+}
+
+h1 h2 h3 h4 h5 h6 { color: var(--cor-laranja);
+}
+
+p { color:var(var(--cor-cinza));
+
+}
