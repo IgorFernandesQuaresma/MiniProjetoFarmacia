@@ -4,84 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todos os remédios</title>
+    <title>Contato</title>
     <script src="https://kit.fontawesome.com/942d26a134.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../CSS/body.css">
+    <link rel="shortcut icon" href="../IMAGEM/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="..//CSS/form.css">
 </head>
 
 <body>
 
-    <header>
-        <div id="navmenu">
-        <nav>
-            <ul>
-                
-                <li class="navmenu_item"><img src="../IMAGEM/logo farmacia popular.jpg" alt="logo farmacia popular" class="logo"></li>
-                
-                <li class="navmenu_item"><a href="index.html">Todos os remedios</a></li>
-                
-                <li class="navmenu_item"><a href="#">Sobre nós</a></li>
-                
-                <li class="navmenu_item"><a href="Contato.html">Fale conosco</a></li>
-            
-                <li class="navmenu_item"><a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
-                
-            </ul>
-        </nav>
+<header>
+
+    <div id="navmenu">
+    <nav>
+        <div id="desconto">
+            <li>Ganhe 10 pila de desconto com o cupom <strong>DevInHouse</strong></li>
         </div>
+        <ul>
+            
+            <li class="navmenu_item"><img src="https://www.drogariacatarinense.com.br/arquivos/header__logo_dc--azul.png?v=638143949233330000" alt="logo farmacia popular" class="logo"></li>
+
+            <li class="navmenu_item"><a href="../HTML/homeindex.html">Home</a></li>
+            
+            <li class="navmenu_item"><a href="../HTML/todosmedicamentos.html">Todos os remedios</a></li>
+            
+            <li class="navmenu_item"><a href="../HTML/sobrenos.html">Sobre nós</a></li>
+            
+            <li class="navmenu_item"><a href="Contato.html">Fale conosco</a></li>
+        
+            <li class="navmenu_item"><a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+               
+        </ul>
+    </nav>
+    </div>
+
+</header>
     
-    </header>
-
-<!-- Crie o formulário de contato com os seguintes campos:
-
-Nome
-
-Telefone para contato
-
-E-mail
-
-Assunto (Opções em um combo)
-
-Sua mensagem (textarea)
-
-Checkbox - Esta mensagem é sobre um orçamento
-
-Botão enviar -->
 
 <main>
+
+    <section class="formulario">
+
     <form action="igor.fernandesq@gmail.com" method="post">
+
+        <div class="formulario_item">
         <label for="Nome Completo">Nome Completo</label>
         <input type="text">
-    <br>
+        </div>
+   
+        <div class="formulario_item">
         <label for="Email">Email</label>
         <input type="email" name="email">
-    <br>
+        </div>
+    
+        <div class="formulario_item">
         <label for="Telefone">Telefone</label>
         <input type="tel" name="telefone">
-    <br>
+        </div>
+   
+
+        <div class="formulario_item">
         <label for="Assunto">Assunto</label>
         <select name="Assunto" id="Assunto">
             <option value="Vendas">Vendas</option>
             <option value="Financeiro">Financeiro</option>
             <option value="Pos-vendas">Pos-vendas</option>
-        </select>    
-    <br>
+        </select>
+        </div>    
+    
+        <div class="formulario_item">
         <label for="Mensagem-do-usuario">Escreva uma mensagem</label>
         <textarea name="Sua mensagem" id="sua-mensagem" cols="40" rows="5"></textarea>
-
-    <br>
-
+        </div>
+   
+        <div class="formulario_item">
+        <p>Essa mensagem é sobre orçamento?</p>
         <label for="sim">Sim</label>
         <input type="checkbox" name="sim" id="checkboxsim" value="sim">
         <label for="sim">Não</label>
         <input type="checkbox" name="nao" id="checkboxnao" value="nao">
+        </div>
 
-
-    <br>
     
-
+    
+        <div class="formulario_item">
         <input type="submit" name="Enviar">
+        </div>
+
+    </section>
 
     </form>
 </main>
