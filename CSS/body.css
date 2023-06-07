@@ -187,3 +187,64 @@ padding-right: 15px; }
 	top:1px;
 }
 
+
+
+/* ---------------- Sobre nos ------------------- */
+.sobrenos { color: var(--cor-cinza);
+    font-weight: bold;
+    font-size: 30px; 
+    display: block;
+    text-align: center;
+}
+
+.sobrenos_conteudo { width: 1080px;
+
+    display: flex;
+    flex-direction: row;    
+    justify-items: center;
+    gap: 50;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.sobrenos_conteudo img { width: 520px;
+    margin-right: 100px;
+}
+
+.sobrenos_conteudo p { font-weight: bold;
+    color: var(--cor-cinza);
+    line-height: 1.5;
+}
+
+
+ .mapas { display: flex;
+    align-items: center;
+    background-color: var(--cor-branco);
+}
+
+.mapas ul { list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.mapas a { color: var(--cor-cinza);
+    text-decoration-line: none;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 200px;
+    line-height: 2.0;
+    align-content: end;
+}
+
+.mapas a:hover { color: var(--cor-laranja);
+
+}
+
+
+
+
+
+
