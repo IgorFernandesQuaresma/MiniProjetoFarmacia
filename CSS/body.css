@@ -224,10 +224,7 @@ padding-right: 15px; }
 }
 
 .mapas ul { list-style: none;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-
+    text-align: right;
 }
 
 .mapas a { color: var(--cor-cinza);
@@ -236,12 +233,12 @@ padding-right: 15px; }
     font-size: 25px;
     margin-right: 200px;
     line-height: 2.0;
-    align-content: end;
 }
 
 .mapas a:hover { color: var(--cor-laranja);
 
 }
+
 
 
 
