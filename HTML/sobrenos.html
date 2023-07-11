@@ -6,38 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre nos</title>
     <script src="https://kit.fontawesome.com/942d26a134.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../CSS/body.css">
     <link rel="shortcut icon" href="../IMAGEM/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../bootstrap-5.3.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../CSS/menu.css">
+    <link rel="stylesheet" href="../CSS/sobre.css">
+    <script src="../bootstrap-5.3.0-dist/js/bootstrap.js"></script>
+    
+    
 </head>
 
 <body>
 
 <header>
 
-    <div id="navmenu">
-    <nav>
-        <div id="desconto">
-            <li>Ganhe 10 pila de desconto com o cupom <strong>DevInHouse</strong></li>
-        </div>
-        <ul>
-            
-            <li class="navmenu_item"><img src="https://www.drogariacatarinense.com.br/arquivos/header__logo_dc--azul.png?v=638143949233330000" alt="logo farmacia popular" class="logo"></li>
-
-            <li class="navmenu_item"><a href="../HTML/homeindex.html">Home</a></li>
-            
-            <li class="navmenu_item"><a href="../HTML/todosmedicamentos.html">Todos os remedios</a></li>
-            
-            <li class="navmenu_item"><a href="../HTML/sobrenos.html">Sobre nós</a></li>
-            
-            <li class="navmenu_item"><a href="Contato.html">Fale conosco</a></li>
-        
-            <li class="navmenu_item"><a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+    <div id="desconto">
+        <li>Ganhe 10 pila de desconto com o cupom <strong>DevInHouse</strong></li>
+      </div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a href="./homeindex.html">
+            <img class= "logo" src="https://www.drogariacatarinense.com.br/arquivos/header__logo_dc--azul.png?v=638143949233330000" alt="logoFarmaciaPopular">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="./homeindex.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./todosmedicamentos.html">Todos os remedios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./sobrenos.html">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Contato.html">Fale conosco</a>
+                </li>
                
-        </ul>
-    </nav>
-    </div>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+  
 </header>
 
 <main>
@@ -60,23 +76,27 @@
             </div>
     </section>
 
-    <section class = "mapas">
+    <section class = "container">
         <div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56534.635877613735!2d-48.53707001833913!3d-27.673573593359336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273b6d4b3262fd%3A0x7d377c27db132e69!2sCampeche%2C%20Florian%C3%B3polis%20-%20SC!5e0!3m2!1spt-BR!2sbr!4v1686177134448!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
-        <div class="mapas">
-            <ul>       
-                <li class="navmenu_inferior"><a href="../HTML/homeindex.html">Home</a></li>
+        <div class="col mb-3">
+          
+            <ul class = "nav flex-column">  
+                <h5>Navegação</h5>     
+                <li class="nav-item mb-2"><a href="../HTML/homeindex.html">Home</a></li>
                 
-                <li class="navmenu_inferior"><a href="../HTML/todosmedicamentos.html">Todos os remedios</a></li>
+                <li class="nav-item mb-2"><a href="../HTML/todosmedicamentos.html">Todos os remedios</a></li>
                 
-                <li class="navmenu_inferior"><a href="../HTML/sobrenos.html">Sobre nós</a></li>
+                <li class="nav-item mb-2"><a href="../HTML/sobrenos.html">Sobre nós</a></li>
                 
-                <li class="navmenu_inferior"><a href="Contato.html">Fale conosco</a></li>                 
+                <li class="nav-item mb-2"><a href="Contato.html">Fale conosco</a></li>                 
             </ul>
         </div>
-    </section>
+
+      </section>
+    
 
 </main>
     
@@ -86,15 +106,18 @@
 
 
 
-<footer>
-    <section class="rodape">
-        <div><p>&copy; Projeto desenvolvido por Igor Fernandes para DevInHouse - 2023</p></div>
-    <ul>
-        <div class="redesocial">
-        <h1><li><a href="https://github.com/IgorFernandesQuaresma"><i class="fa-brands fa-github" style="color: #ffffff;"></i></i></a></li></h1>
-        <h1><li><a href="https://www.instagram.com/ifernandes.q"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></li></h1>
-        <h1><li><a href="https://www.linkedin.com/in/igor-fernandes-097611114/"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a></li></h1>
-        </div>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit; color: #ffffff;">©  Projeto desenvolvido por Igor Fernandes- 2023</font></font></span>
+    </div>
+  
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <h1><li class="ms-3"><a class="text-body-secondary" href="https://github.com/IgorFernandesQuaresma"><i class="fa-brands fa-github" style="color: #ffffff;"></i></i></a></li></h1>
+      <h1><li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/ifernandes.q"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></li></h1>
+      <h1><li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/igor-fernandes-097611114/"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a></li></h1>
     </ul>
-    </section>
+  </footer>
 </footer>
